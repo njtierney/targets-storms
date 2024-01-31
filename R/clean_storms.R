@@ -10,6 +10,6 @@
 clean_storms <- function(storms_raw) {
 
   storms_raw %>% 
-    filter(year >= 2000)
+    filter(year >= 1980)
 
 }

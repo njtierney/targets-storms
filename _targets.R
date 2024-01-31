@@ -9,6 +9,8 @@ tar_plan(
   storms_raw = read_csv(storms_file),
   storms_tidy = clean_storms(storms_raw),
   storms_model = model_storms(storms_tidy),
+  storms_loess = fit_loess(storms_tidy),
   model_summary = summary(storms_model),
-  tar_quarto(eda, "doc/eda.qmd")
+  model_diagnostics = plot(storms_model)
+  # tar_quarto(eda, "doc/eda.qmd")
 )

@@ -3,13 +3,12 @@
 #' .. content for \details{} ..
 #'
 #' @title
-#' @param storms
+#' @param storms_tidy
 #' @return
 #' @author njtierney
 #' @export
-model_storms <- function(storms_tidy) {
+fit_loess <- function(storms_tidy) {
 
-  lm(wind ~ pressure + lat + long,
-     data = storms_tidy)
+  loess(wind ~ lat + long, data = storms_tidy)
 
 }
