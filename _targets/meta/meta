@@ -6,9 +6,9 @@ storms_loess|stem|2d41404eb41520a0|18efbdabd1148b9b|bcc01c9f2f46fd1d|465101091||
 storms_model|stem|1855b5f83820abae|6fb39aac8e778d08|6541a5f3c9d27836|-2072346557||t20287.2544564648s|s958377b|958377|rds|local|vector|||0.003||
 model_summary|stem|4137351257894e24|9796798e487506c2|443658e3bf82b832|-1088889063||t20287.2544668614s|s287497b|287497|rds|local|vector|||0.004||
 model_augment|stem|05ffb7f5056c2ace|c6dddd9118d79997|079a66dc12d2cd93|-55250169||t20287.2563190662s|s501368b|501368|rds|local|vector|||0.006||
+model_diagnostics|stem|22d6370ef428f62d|989c9dc826119f8e|c885f28db949d98f|1068795827||t20287.257281239s|s1683500b|1683500|rds|local|vector|||0.047||
 model_storms|function|7a3fc93e76753bea
 fit_loess|function|34654b297a0e4131
-.Random.seed|object|0983450b3e8dc031
+.Random.seed|object|108b8967729b7d75
 plot_summary|function|c04c5c32aad629fa
 clean_storms|function|c18aad265e73f789
-model_diagnostics|stem|22d6370ef428f62d|989c9dc826119f8e|c885f28db949d98f|1068795827||t20287.257281239s|s1683500b|1683500|rds|local|vector|||0.047||
