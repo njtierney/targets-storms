@@ -11,6 +11,7 @@ tar_plan(
   storms_model = model_storms(storms_tidy),
   storms_loess = fit_loess(storms_tidy),
   model_summary = summary(storms_model),
-  model_diagnostics = plot(storms_model)
+  model_augment = augment(storms_loess),
+  model_diagnostics = plot_summary(model_augment)
   # tar_quarto(eda, "doc/eda.qmd")
 )
